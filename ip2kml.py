@@ -43,7 +43,7 @@ def header():
     print '\t           Version: %s           \n' % __version__
 
 def usage():
-    print 'Usage: python ./kmlgen.py <ip_file> [options]'
+    print 'Usage: python ./ip2kml.py <ip_file> [options]'
     print 'Options:'
     print '      -c, --check_response            Check http response'
     print '      -o, --output_file=<file_path>   Specify output file path,'
